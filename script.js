@@ -79,7 +79,7 @@ async function updateWeather(query) {
 //API Calls
 async function fetchSuggestions(query) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/search.json?key=${API_KEY}&q=${query}`);
+        const response = await fetch(`https://api.weatherapi.com/v1/search.json?key=${API_KEY}&q=${query}`);
         const data = await response.json();
         return data;
     } catch (err) {
@@ -89,7 +89,7 @@ async function fetchSuggestions(query) {
 
 async function APIForecastCall(query) {
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?q=${query}&key=${API_KEY}&days=4`)
+        const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?q=${query}&key=${API_KEY}&days=4`)
         const data = await response.json()
         return data
     } catch (err) {
