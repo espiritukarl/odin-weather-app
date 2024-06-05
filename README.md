@@ -7,3 +7,6 @@ Complete with the following features:
 - 3 Day Forecast
 - Running time
 - Celsius to Farenheit and vice versa converter
+
+
+Live Preview: https://espiritukarl.github.io/odin-weather-app/
