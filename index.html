@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Webapp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="loading-container">
+        <div id="loading"></div>
+    </div>
+    <header>
+        <form id="search-form" autocomplete="off">
+            <input type="text" id="search-bar" placeholder="Search for a city...">
+            <div id="suggestions"></div>
+        </form>
+    </header>
+    <main>
+        <div class="current-weather">
+            <div class="weather-info">
+                <div class="icon-temp-container">
+                    <img class="weather-icon" src="#" alt="Weather Icon">
+                    <h2 id="temperature"></h2>
+                </div>
+                <h1 id="weather-condition"></h1>
+            </div>
+            <div class="location-time">
+                <p id="city-country"></p>
+                <p id="time"></p>
+                <p id="date"></p>
+            </div>
+        </div>
+        <div class="forecast">
+            <div class="forecast-day">
+                <img class="weather-icon" src="#" alt="Weather Icon">
+                <p class="day"></p>
+                <p class="temp"></p>
+            </div>
+            <div class="forecast-day">
+                <img class="weather-icon" src="#" alt="Weather Icon">
+                <p class="day"></p>
+                <p class="temp"></p>
+            </div>
+            <div class="forecast-day">
+                <img class="weather-icon" src="#" alt="Weather Icon">
+                <p class="day"></p>
+                <p class="temp"></p>
+            </div>
+        </div>
+    </main>
+    <button id="toggle-unit" class="toggle-unit">C°</button>
+</body>
+</html>
