@@ -30,7 +30,7 @@ header {
 }
 
 #search-bar {
-    width: 200px;
+    width: 25rem;
     padding: 5px;
     border: none;
     border-radius: 3px;
@@ -134,8 +134,8 @@ main {
     border-top: none;
     position: absolute;
     z-index: 10;
-    width: calc(100% - 20px); /* Adjust to match the search bar width */
-    left: 60%;
+    width: calc(100% - 25rem); /* Adjust to match the search bar width */
+    left: 75%;
 }
 
 .suggestion-item {
